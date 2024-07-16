@@ -7,8 +7,7 @@ storage, track medications and medical equipment.
 # Technology used
 
 The frontend is built using ReactJS and Tailwind CSS Framework
-![image](https://github.com/user-attachments/assets/7e087125-222f-4452-912b-1b3dad01b42a)
-![image](https://github.com/user-attachments/assets/a51c89dc-d70d-48c5-94db-949f380c0d1d)
+![image](https://github.com/user-attachments/assets/7e087125-222f-4452-912b-1b3dad01b42a), ![image](https://github.com/user-attachments/assets/a51c89dc-d70d-48c5-94db-949f380c0d1d)
 
 
 
