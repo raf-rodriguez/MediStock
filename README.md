@@ -7,10 +7,12 @@ storage, track medications and medical equipment.
 # Technology used
 
 The frontend is built using **ReactJS**, **JavScript** and **Tailwind** CSS Framework
-![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) 
-![image](https://github.com/user-attachments/assets/0850e020-d9b1-4cd6-ac0d-22a50602ac68)
+<img src="./README_Images/react.svg" alt="React Icon" width="60"/> <img src="./README_Images/javascript.svg" alt="Javascript Icon" width="60"/>+
 
-The backend is built using Django REST Framework which interacts with a database.
+ 
+ - The Backend is built using Django REST Framework that interacts database
+
+<img src="./README_Images/django.svg" alt="Django Icon" width="60"/>   <img src="./README_Images/python.svg" alt="Python Icon" width="60"/>
 
 # Installation instructions
 
@@ -41,7 +43,7 @@ Navigate to the frontend directory: cd frontend
 
 Install react.js dependencies npx create-react-app (medistock)
 
-#executing the project
+# executing the project
 Run the Django backend: python manage.py runserver
 
 Run the react.js interface: npm start
