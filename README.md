@@ -7,8 +7,10 @@ The frontend is built using ReactJS and Tailwind CSS Framework
 
 The backend is built using Django REST Framework which interacts with a database.
 
-#Installation instructions
+# Installation instructions
+
 Previous requirements:
+
 Node.js and npm (or thread): Download and install Node.js (version 14 or higher) from the official website https://nodejs.org/en/about/previous-releases. This will also install npm, the Node.js package manager. Alternatively, you can use yarn as a package manager if you prefer.
 Python (version 3.7 or higher): Get Python from the official website https://www.python.org/downloads/.
 Git (optional): If you plan to clone the project from a version control system such as GitHub, install Git https://www.git-scm.com/downloads.
