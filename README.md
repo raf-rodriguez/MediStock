@@ -7,12 +7,12 @@ storage, track medications and medical equipment.
 # Technology used
 
 The frontend is built using **ReactJS**, **JavScript** and **Tailwind** CSS Framework
-<img src="./README_Images/react.svg" alt="React Icon" width="60"/> <img src="./README_Images/javascript.svg" alt="Javascript Icon" width="60"/>+
+!<img src="./README_Images/react.svg" alt="React Icon" width="60"/> !<img src="./README_Images/javascript.svg" alt="Javascript Icon" width="60"/>+
 
  
  - The Backend is built using Django REST Framework that interacts database
 
-<img src="./README_Images/django.svg" alt="Django Icon" width="60"/>   <img src="./README_Images/python.svg" alt="Python Icon" width="60"/>
+!<img src="./README_Images/django.svg" alt="Django Icon" width="60"/>   !<img src="./README_Images/python.svg" alt="Python Icon" width="60"/>
 
 # Installation instructions
 
