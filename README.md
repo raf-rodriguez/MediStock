@@ -1,4 +1,4 @@
-MediStock
+# MediStock
 
 MediStock is a web application that acts as a medical equipment organizer, simplifying medical management for companies or organizations. Its function is like an agenda, structured to keep track of medical equipment expenses. Streamlines organization by allowing users to manage storage, track medications and medical equipment.
 
