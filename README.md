@@ -1,9 +1,16 @@
 # MediStock
 
-MediStock is a web application that acts as a medical equipment organizer, simplifying medical management for companies or organizations. Its function is like an agenda, structured to keep track of medical equipment expenses. Streamlines organization by allowing users to manage storage, track medications and medical equipment.
+MediStock is a web application that acts as a medical equipment organizer, simplifying medical management for companies or organizations. 
+Its function is like an agenda, structured to keep track of medical equipment expenses. Streamlines organization by allowing users to manage 
+storage, track medications and medical equipment.
 
-#Technology used
+# Technology used
+
 The frontend is built using ReactJS and Tailwind CSS Framework
+![image](https://github.com/user-attachments/assets/7e087125-222f-4452-912b-1b3dad01b42a)
+![image](https://github.com/user-attachments/assets/a51c89dc-d70d-48c5-94db-949f380c0d1d)
+
+
 
 The backend is built using Django REST Framework which interacts with a database.
 
