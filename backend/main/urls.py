@@ -7,7 +7,6 @@ router = DefaultRouter()
 router.register(r'appuser', AppUserViewSet)
 router.register(r'storage', StorageViewSet)
 router.register(r'medication', MedicationViewSet)
-router.register(r'employee', EmployeeViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
@@ -18,6 +17,4 @@ urlpatterns = [
     path('medication/latest/<int:user_id>/', LatestUserMedicationListView.as_view(), name='latest-user-medication-list'),
     path('storage/user/<int:user_id>/', UserStorageListView.as_view(), name='user_storage'),
     path('storage/latest/<int:user_id>/', LatestUserStorageListView.as_view(), name='latest-user-storage-list'),
-    path('employee/user/<int:user_id>/', UserEmployeeView.as_view(), name='user_employee'),
-    path('employee/latest/<int:user_id>/', LatestUserEmployeeListView.as_view(), name='latest-user-employee-list'),
 ]

@@ -85,25 +85,3 @@ class LatestUserMedicationListView(ListAPIView):
         serializer = MedicationSerializer(medication, many=True)
         return Response(serializer.data)
     
-# Employee -----------------------------------------------
-class EmployeeViewSet(viewsets.ModelViewSet):
-    permission_classes = [IsAuthenticated]
-    queryset = Employee.objects.all()
-    serializer_class = EmployeeSerializer
-
-class UserEmployeeView(ListAPIView):
-    permission_classes = [IsAuthenticated]
-
-    def get(self, request, user_id):
-        employee = Employee.objects.filter(user_id=user_id)
-        serializer = EmployeeSerializer(employee, many=True)
-        return Response(serializer.data)
-    
-class LatestUserEmployeeListView(ListAPIView):
-    permission_classes = [IsAuthenticated]
-
-    def get(self, request, user_id):
-        employee = Employee.objects.filter(user_id=user_id).order_by('-employee_id')[:5]
-        serializer = EmployeeSerializer(employee, many=True)
-        return Response(serializer.data)
-    

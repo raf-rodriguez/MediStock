@@ -35,18 +35,3 @@ class Medication(models.Model):
 
     class Meta:
         db_table = "Medication"
-
-# Employee -------------------------------------------------------
-class Employee(models.Model):
-    employee_id = models.AutoField(primary_key=True)
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    address = models.CharField(max_length=255) 
-    licence_tem = models.CharField(max_length=100)
-    expirate = models.DateField(null=True, blank=True)
-    email = models.EmailField(max_length=100)
-    phone = models.CharField(max_length=50)
-    user_id = models.ForeignKey('MainUser', on_delete=models.CASCADE)
-
-    class Meta:
-        db_table = "employee"
